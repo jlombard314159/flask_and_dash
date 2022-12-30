@@ -3,6 +3,7 @@ from flask import Flask
 from flask.helpers import get_root_path
 from app.dashapp1.complete_app import my_layout
 from app.dashapp2.complete_app import my_layout as second_layout
+
 class BaseConfig:
     SECRET_KEY = 'asdkljdl'
 
