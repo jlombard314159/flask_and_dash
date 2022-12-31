@@ -2,6 +2,10 @@ from app import create_app
 from werkzeug import run_simple
 server = create_app()
 
+##helpful urls
+# https://community.plotly.com/t/dash-app-pages-with-flask-login-flow-using-flask/69507
+# https://github.com/AnnMarieW/dash-flask-login
+
 if __name__ == '__main__':
 
     run_simple('localhost',8050, server, use_debugger=True, use_reloader=True)
